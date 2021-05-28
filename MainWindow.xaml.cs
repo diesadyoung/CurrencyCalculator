@@ -23,6 +23,22 @@ namespace CurrencyCalculator_Static
         public MainWindow()
         {
             InitializeComponent();
+            
+        }
+
+        private void Convert_Click(object sender, RoutedEventArgs e)
+        {
+            lblCurrency.Content = "Hi";
+        }
+
+        private void Clear_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void NumberValidationTextBox(object sender, TextCompositionEventArgs e)
+        {
+
         }
     }
 }
